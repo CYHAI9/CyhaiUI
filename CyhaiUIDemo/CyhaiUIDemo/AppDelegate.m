@@ -7,7 +7,11 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import "oneViewController.h"
+#import "TwoViewController.h"
+#import "threeViewController.h"
+#import "FourViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +20,29 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    oneViewController * ovc = [[oneViewController alloc] init];
+    UINavigationController * nvc = [[UINavigationController alloc] initWithRootViewController:ovc];
+    nvc.tabBarItem.title = @"one";
+    
+    TwoViewController * tvc = [[TwoViewController alloc] init];
+    UINavigationController * nvc2 = [[UINavigationController alloc] initWithRootViewController:tvc];
+    nvc2.tabBarItem.title = @"two";
+    
+    threeViewController * thvc = [[threeViewController alloc] init];
+    UINavigationController * nvc3 = [[UINavigationController alloc] initWithRootViewController:thvc];
+    nvc3.tabBarItem.title = @"three";
+    
+    FourViewController * fvc = [[FourViewController alloc] init];
+    UINavigationController * nvc4 = [[UINavigationController alloc] initWithRootViewController:fvc];
+    nvc4.tabBarItem.title = @"four";
+    
+    UITabBarController * tbv = [[UITabBarController alloc] init];
+    tbv.viewControllers = @[nvc,nvc2,nvc3,nvc4];
+    
+    self.window.rootViewController = tbv;
     return YES;
 }
 
