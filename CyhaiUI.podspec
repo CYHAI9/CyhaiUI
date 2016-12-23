@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CyhaiUI"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "CyhaiUI is a good UI"
 
   # This description is used to generate tags and improve search results.
@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "又是一个大叔" => "3069126500@qq.com" }
+  s.author             = { "CYHAI9" => "3069126500@qq.com" }
   # Or just: s.author    = "又是一个大叔"
   # s.authors            = { "又是一个大叔" => "3069126500@qq.com" }
   # s.social_media_url   = "http://twitter.com/又是一个大叔"
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   s.source_files  = "CyhaiUI/*.{h,m}"
  # s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "CyhaiUI/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
