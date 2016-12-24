@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '98A26AA107783AAEC028B5CCD216759A'
+               BlueprintIdentifier = 'D49E50EB31F362C4280D078171CDA22B'
                BlueprintName = 'Pods-CyhaiUIDemo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-CyhaiUIDemo.a'>

@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		180CE7E883789D22413EC3EFEE96DDAC /* Pods-CyhaiUIDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0FEDF8AAC1CA95B77F3F30A64BA351 /* Pods-CyhaiUIDemo-dummy.m */; };
-		21AE13FD686E0BA527A1572937E7DFBB /* UIView+adView.h in Headers */ = {isa = PBXBuildFile; fileRef = 77991E839D17794CE626265DB02F37D2 /* UIView+adView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A202F6ED6CB633B48F63B4135709051 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		309831B29D655DB771001488D8946E34 /* mySearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C008DAB37CDA4DCAF9E42FBCD0D4282A /* mySearchBar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		363E7911D7CA1CF01975B82830B09617 /* mySearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1303D98A6D70B16C46BF90964F6B2E /* mySearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A41239B1D4040812A486F766F833560 /* Ftableview.h in Headers */ = {isa = PBXBuildFile; fileRef = 278EBC47F32DC05B7F7E8E5A593238C5 /* Ftableview.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53FC8989D50DE1D3EE9968942B232F62 /* CyhaiUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFB426D5C221651ABCD8A5973BAB62 /* CyhaiUI-dummy.m */; };
-		559B08A010610A373D997AE656FF9409 /* Ftableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E11362C4E2DF6E6C44FEA4A1C4A17A /* Ftableview.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5CDA8E778775FEF4255718971ED6F58C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		6472F41E3AA12C4421EFBC0CEF385C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		695BAA0D55248C513D429AD5EFF956C6 /* Sytableview.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A7CEE69B67D68839910A00A20C1B02 /* Sytableview.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1A90605141F2407248CFBC4DCA48E96 /* UIView+adView.m in Sources */ = {isa = PBXBuildFile; fileRef = E992C01D101B41D5B3512DADB699A7C1 /* UIView+adView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D17248AF70DFD43A81CA556AB0BE9288 /* waterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FC10C351486D339517C85669FFC700 /* waterLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F4DBA1E315DEBA005034B73A63F88046 /* Sytableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE5BEB9AA22C49933DA2E8E96C049F /* Sytableview.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FC77121346E3510E8E8036908A0CD59C /* waterLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C06DB0FA07D22F25FB5A68F3CEA2E6 /* waterLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		201D66B83EF33F850FBFD08DAABF4243 /* Sytableview.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A7CEE69B67D68839910A00A20C1B02 /* Sytableview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ECA250CCB5E012A6D1F3C3C74FB0BB2 /* mySearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C008DAB37CDA4DCAF9E42FBCD0D4282A /* mySearchBar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5011BF331EA72E27EACFC9B22485602A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		606C47F5D9B284EE6752D2273AC9629A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		62717D0810B5AFC35C6A18089F35B7C9 /* Ftableview.h in Headers */ = {isa = PBXBuildFile; fileRef = 278EBC47F32DC05B7F7E8E5A593238C5 /* Ftableview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C55501A5A53D9263662DEB021190368 /* UIView+adView.h in Headers */ = {isa = PBXBuildFile; fileRef = 77991E839D17794CE626265DB02F37D2 /* UIView+adView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B0963E54B91B594C3AC946FFFE234DE /* UIView+adView.m in Sources */ = {isa = PBXBuildFile; fileRef = E992C01D101B41D5B3512DADB699A7C1 /* UIView+adView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7B1FF373F63DD8E80B5C8E51D55E33C7 /* CyhaiUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFB426D5C221651ABCD8A5973BAB62 /* CyhaiUI-dummy.m */; };
+		8E1107CFEA70012DFF745A661051CAE6 /* Ftableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E11362C4E2DF6E6C44FEA4A1C4A17A /* Ftableview.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AA47080AA040E4FDD00A5B5577DDE03F /* waterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FC10C351486D339517C85669FFC700 /* waterLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CCEFEFA5AFE58D3E35E605A05F0CB663 /* waterLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C06DB0FA07D22F25FB5A68F3CEA2E6 /* waterLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEF2B0B631C2314927244B563F3BD135 /* Pods-CyhaiUIDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0FEDF8AAC1CA95B77F3F30A64BA351 /* Pods-CyhaiUIDemo-dummy.m */; };
+		D2B99D31288D5818B9075B01A53EA54E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E73BF3B7B9FCA0CC65E9ED62185F5721 /* Sytableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE5BEB9AA22C49933DA2E8E96C049F /* Sytableview.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F52E78784817B58DBFE2D89AEB01650F /* mySearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1303D98A6D70B16C46BF90964F6B2E /* mySearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6CB9BD95F7FDD33AE4CD37BDAD4E58B9 /* PBXContainerItemProxy */ = {
+		72404852C82C7A31E1D0E79987D241D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0D882C53E397A6E6FCC0EB4FFC5B33BF;
+			remoteGlobalIDString = 62FF6F2F372B85CADC173386278039A5;
 			remoteInfo = CyhaiUI;
 		};
 /* End PBXContainerItemProxy section */
@@ -48,35 +48,35 @@
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7EFE5BEB9AA22C49933DA2E8E96C049F /* Sytableview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Sytableview.m; path = CyhaiUI/Sytableview.m; sourceTree = "<group>"; };
 		89FC10C351486D339517C85669FFC700 /* waterLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = waterLayout.m; path = CyhaiUI/waterLayout.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95A7CEE69B67D68839910A00A20C1B02 /* Sytableview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sytableview.h; path = CyhaiUI/Sytableview.h; sourceTree = "<group>"; };
 		99E11362C4E2DF6E6C44FEA4A1C4A17A /* Ftableview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Ftableview.m; path = CyhaiUI/Ftableview.m; sourceTree = "<group>"; };
-		9B6D1E3CBBCF16CA9086A84B80CDB6C3 /* libCyhaiUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCyhaiUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6D1E3CBBCF16CA9086A84B80CDB6C3 /* libCyhaiUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCyhaiUI.a; path = libCyhaiUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5FD446AE99950D630ED6E9A3AA9EE3 /* CyhaiUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CyhaiUI.xcconfig; sourceTree = "<group>"; };
 		A0D893E73B36C2B53AD0CCAA31FF096F /* Pods-CyhaiUIDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CyhaiUIDemo-frameworks.sh"; sourceTree = "<group>"; };
 		AE80E28B8553FBFB256B4B0637E9F8CF /* Pods-CyhaiUIDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CyhaiUIDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C008DAB37CDA4DCAF9E42FBCD0D4282A /* mySearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = mySearchBar.m; path = CyhaiUI/mySearchBar.m; sourceTree = "<group>"; };
-		C18F66BE160BAF10FB312FEED0E4C226 /* libPods-CyhaiUIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CyhaiUIDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18F66BE160BAF10FB312FEED0E4C226 /* libPods-CyhaiUIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CyhaiUIDemo.a"; path = "libPods-CyhaiUIDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B89AC688F04A83D6BD44F323302B94 /* Pods-CyhaiUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CyhaiUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E992C01D101B41D5B3512DADB699A7C1 /* UIView+adView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+adView.m"; path = "CyhaiUI/UIView+adView.m"; sourceTree = "<group>"; };
 		FE0FEDF8AAC1CA95B77F3F30A64BA351 /* Pods-CyhaiUIDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CyhaiUIDemo-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5FD2042306EE3E63D05A138ADFC34EEC /* Frameworks */ = {
+		46A087841B3BD05D416EC6D2B65E1E44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6472F41E3AA12C4421EFBC0CEF385C17 /* Foundation.framework in Frameworks */,
-				2A202F6ED6CB633B48F63B4135709051 /* UIKit.framework in Frameworks */,
+				D2B99D31288D5818B9075B01A53EA54E /* Foundation.framework in Frameworks */,
+				5011BF331EA72E27EACFC9B22485602A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1212F51DC7F077C095DA17CEF24B56F /* Frameworks */ = {
+		B4BD8615EB06CE92E89B98B9BFAB2D00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CDA8E778775FEF4255718971ED6F58C /* Foundation.framework in Frameworks */,
+				606C47F5D9B284EE6752D2273AC9629A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +124,7 @@
 				89FC10C351486D339517C85669FFC700 /* waterLayout.m */,
 				3BA14002165A256AD64B6FBB0DCF6F30 /* Support Files */,
 			);
+			name = CyhaiUI;
 			path = CyhaiUI;
 			sourceTree = "<group>";
 		};
@@ -183,28 +184,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		FF48BD81C6AC09A05A3F0DCB6F368343 /* Headers */ = {
+		006B1F13E87AB6C02ECC03E6BDC5D8CF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A41239B1D4040812A486F766F833560 /* Ftableview.h in Headers */,
-				363E7911D7CA1CF01975B82830B09617 /* mySearchBar.h in Headers */,
-				695BAA0D55248C513D429AD5EFF956C6 /* Sytableview.h in Headers */,
-				21AE13FD686E0BA527A1572937E7DFBB /* UIView+adView.h in Headers */,
-				FC77121346E3510E8E8036908A0CD59C /* waterLayout.h in Headers */,
+				62717D0810B5AFC35C6A18089F35B7C9 /* Ftableview.h in Headers */,
+				F52E78784817B58DBFE2D89AEB01650F /* mySearchBar.h in Headers */,
+				201D66B83EF33F850FBFD08DAABF4243 /* Sytableview.h in Headers */,
+				6C55501A5A53D9263662DEB021190368 /* UIView+adView.h in Headers */,
+				CCEFEFA5AFE58D3E35E605A05F0CB663 /* waterLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D882C53E397A6E6FCC0EB4FFC5B33BF /* CyhaiUI */ = {
+		62FF6F2F372B85CADC173386278039A5 /* CyhaiUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3B374F62D8467051173A2B500B70626 /* Build configuration list for PBXNativeTarget "CyhaiUI" */;
+			buildConfigurationList = 1BB1A3AC3D7B194069C5D8B0E23D949F /* Build configuration list for PBXNativeTarget "CyhaiUI" */;
 			buildPhases = (
-				AA8F88E797D5B035540F0AC1F3FB7AAD /* Sources */,
-				5FD2042306EE3E63D05A138ADFC34EEC /* Frameworks */,
-				FF48BD81C6AC09A05A3F0DCB6F368343 /* Headers */,
+				E91BD698CCE132095781562A8B02AA39 /* Sources */,
+				46A087841B3BD05D416EC6D2B65E1E44 /* Frameworks */,
+				006B1F13E87AB6C02ECC03E6BDC5D8CF /* Headers */,
 			);
 			buildRules = (
 			);
@@ -215,17 +216,17 @@
 			productReference = 9B6D1E3CBBCF16CA9086A84B80CDB6C3 /* libCyhaiUI.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		98A26AA107783AAEC028B5CCD216759A /* Pods-CyhaiUIDemo */ = {
+		D49E50EB31F362C4280D078171CDA22B /* Pods-CyhaiUIDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96821458C7422926DB51A6C8F5C36461 /* Build configuration list for PBXNativeTarget "Pods-CyhaiUIDemo" */;
+			buildConfigurationList = 297FEFD5B8595CF4AEDEDCC7AE412FBE /* Build configuration list for PBXNativeTarget "Pods-CyhaiUIDemo" */;
 			buildPhases = (
-				76C18FE67BD6BF59599DC12C1BE22DDA /* Sources */,
-				D1212F51DC7F077C095DA17CEF24B56F /* Frameworks */,
+				99ED4DB2E0DECA3E6D484DE337E0C000 /* Sources */,
+				B4BD8615EB06CE92E89B98B9BFAB2D00 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5E652F867F8480291C589DE85C8F2D2 /* PBXTargetDependency */,
+				3AA002811EF923F63687BE5CD78097B4 /* PBXTargetDependency */,
 			);
 			name = "Pods-CyhaiUIDemo";
 			productName = "Pods-CyhaiUIDemo";
@@ -253,42 +254,42 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D882C53E397A6E6FCC0EB4FFC5B33BF /* CyhaiUI */,
-				98A26AA107783AAEC028B5CCD216759A /* Pods-CyhaiUIDemo */,
+				62FF6F2F372B85CADC173386278039A5 /* CyhaiUI */,
+				D49E50EB31F362C4280D078171CDA22B /* Pods-CyhaiUIDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		76C18FE67BD6BF59599DC12C1BE22DDA /* Sources */ = {
+		99ED4DB2E0DECA3E6D484DE337E0C000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180CE7E883789D22413EC3EFEE96DDAC /* Pods-CyhaiUIDemo-dummy.m in Sources */,
+				CEF2B0B631C2314927244B563F3BD135 /* Pods-CyhaiUIDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA8F88E797D5B035540F0AC1F3FB7AAD /* Sources */ = {
+		E91BD698CCE132095781562A8B02AA39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53FC8989D50DE1D3EE9968942B232F62 /* CyhaiUI-dummy.m in Sources */,
-				559B08A010610A373D997AE656FF9409 /* Ftableview.m in Sources */,
-				309831B29D655DB771001488D8946E34 /* mySearchBar.m in Sources */,
-				F4DBA1E315DEBA005034B73A63F88046 /* Sytableview.m in Sources */,
-				C1A90605141F2407248CFBC4DCA48E96 /* UIView+adView.m in Sources */,
-				D17248AF70DFD43A81CA556AB0BE9288 /* waterLayout.m in Sources */,
+				7B1FF373F63DD8E80B5C8E51D55E33C7 /* CyhaiUI-dummy.m in Sources */,
+				8E1107CFEA70012DFF745A661051CAE6 /* Ftableview.m in Sources */,
+				3ECA250CCB5E012A6D1F3C3C74FB0BB2 /* mySearchBar.m in Sources */,
+				E73BF3B7B9FCA0CC65E9ED62185F5721 /* Sytableview.m in Sources */,
+				7B0963E54B91B594C3AC946FFFE234DE /* UIView+adView.m in Sources */,
+				AA47080AA040E4FDD00A5B5577DDE03F /* waterLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B5E652F867F8480291C589DE85C8F2D2 /* PBXTargetDependency */ = {
+		3AA002811EF923F63687BE5CD78097B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CyhaiUI;
-			target = 0D882C53E397A6E6FCC0EB4FFC5B33BF /* CyhaiUI */;
-			targetProxy = 6CB9BD95F7FDD33AE4CD37BDAD4E58B9 /* PBXContainerItemProxy */;
+			target = 62FF6F2F372B85CADC173386278039A5 /* CyhaiUI */;
+			targetProxy = 72404852C82C7A31E1D0E79987D241D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -337,7 +338,7 @@
 			};
 			name = Debug;
 		};
-		049043875F530FECCDE61F95E7A9FB5D /* Release */ = {
+		13EB466557CCF796FEDD4B67CE0409B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D6B89AC688F04A83D6BD44F323302B94 /* Pods-CyhaiUIDemo.release.xcconfig */;
 			buildSettings = {
@@ -360,7 +361,7 @@
 			};
 			name = Release;
 		};
-		378D8A14438ECB4397FBB02378926458 /* Debug */ = {
+		2CC9745EE1DDCBC9DEC00E2F246E1F11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 20E2832E58FDEEDC6EB40FEBFAA27BCD /* Pods-CyhaiUIDemo.debug.xcconfig */;
 			buildSettings = {
@@ -378,6 +379,29 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		33717EBB723874DE394C1707EDB0A4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5FD446AE99950D630ED6E9A3AA9EE3 /* CyhaiUI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CyhaiUI/CyhaiUI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -423,7 +447,7 @@
 			};
 			name = Release;
 		};
-		92A62220CAF638BB36901A377D9085FF /* Release */ = {
+		C486F494CA12E52691323DB75796594B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C5FD446AE99950D630ED6E9A3AA9EE3 /* CyhaiUI.xcconfig */;
 			buildSettings = {
@@ -446,55 +470,32 @@
 			};
 			name = Release;
 		};
-		BB7340215972DAF890F7ABA7839039EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C5FD446AE99950D630ED6E9A3AA9EE3 /* CyhaiUI.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CyhaiUI/CyhaiUI-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1BB1A3AC3D7B194069C5D8B0E23D949F /* Build configuration list for PBXNativeTarget "CyhaiUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33717EBB723874DE394C1707EDB0A4C1 /* Debug */,
+				C486F494CA12E52691323DB75796594B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		297FEFD5B8595CF4AEDEDCC7AE412FBE /* Build configuration list for PBXNativeTarget "Pods-CyhaiUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC9745EE1DDCBC9DEC00E2F246E1F11 /* Debug */,
+				13EB466557CCF796FEDD4B67CE0409B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
 				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		96821458C7422926DB51A6C8F5C36461 /* Build configuration list for PBXNativeTarget "Pods-CyhaiUIDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				378D8A14438ECB4397FBB02378926458 /* Debug */,
-				049043875F530FECCDE61F95E7A9FB5D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3B374F62D8467051173A2B500B70626 /* Build configuration list for PBXNativeTarget "CyhaiUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB7340215972DAF890F7ABA7839039EB /* Debug */,
-				92A62220CAF638BB36901A377D9085FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

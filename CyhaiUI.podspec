@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CyhaiUI"
-  s.version      = "1.1.0"
+  s.version      = "1.2.0"
   s.summary      = "CyhaiUI is a good UI"
 
   # This description is used to generate tags and improve search results.
