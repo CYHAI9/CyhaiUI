@@ -1,4 +1,4 @@
 platform :ios, '8.0'
 target "CyhaiUIDemo" do
-pod 'CyhaiUI', '~>1.4.0'
+pod 'CyhaiUI', '~>1.5.0'
 end

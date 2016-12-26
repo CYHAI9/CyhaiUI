@@ -131,7 +131,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-   s.xcconfig = { 'HEADER_SEARCH_PATHS' =>'$(SDKROOT)/usr/include/libxml2','ENABLE_BITCODE'=>'NO','OTHER_LDFLAGS' => '$(inherited) -ObjC -all_load'}
+   s.xcconfig = {'OTHER_CFLAGS' => '$(inherited) -DFMDB_SQLITE_STANDALONE'}
   # s.dependency "JSONKit", "~> 1.4"
 
 end
