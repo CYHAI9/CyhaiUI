@@ -388,6 +388,7 @@
 				DEVELOPMENT_TEAM = X2V7RGB29W;
 				INFOPLIST_FILE = CyhaiUIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = Cyhai.CyhaiUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -401,6 +402,7 @@
 				DEVELOPMENT_TEAM = X2V7RGB29W;
 				INFOPLIST_FILE = CyhaiUIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = Cyhai.CyhaiUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
