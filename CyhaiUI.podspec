@@ -131,7 +131,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-   s.xcconfig = {'OTHER_CFLAGS' => '$(inherited) -DFMDB_SQLITE_STANDALONE'}
+   s.xcconfig = {'OTHER_CFLAGS' => '$(inherited) -ObjC -all_load'}
   # s.dependency "JSONKit", "~> 1.4"
 
 end
